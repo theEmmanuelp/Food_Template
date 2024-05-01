@@ -1,4 +1,4 @@
-//import './Css/MenuPage.css';';
+import '../Css/MenuPage.css';
 
 
 export default function Menu (){

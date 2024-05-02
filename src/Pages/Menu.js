@@ -1,30 +1,29 @@
-import '../Css/MenuPage.css';
-import React, {useState } from 'react';
-
-export default function Menu (){
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
+// Menu.js
+import FoodViewSlider from "../Components/FoodViewSlider.js";
+const Menu = () => {
+  const menuItems = [
+    { text: "Pizza" },
+    { text: "Burger" },
+    { text: "Salad" },
+    { text: "Sushi" },
+  ];
+  const containerStyles = {
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+    border: "1px solid #ccc",
+    borderRadius: "10px",
+    overflow: "hidden",
+    position: "relative",
   };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
-  };
-
-  const slides = ['Slide 1', 'Slide 2', 'Slide 3'];
-
   return (
-    <div className="Container">
-      <div className="Slider" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-        {slides.map((slide, index) => (
-          <div className="Slide" key={index}>
-            {slide}
-          </div>
-        ))}
+    <div>
+      <h1>Welcome to our Menu</h1>
+      <div style={containerStyles}>
+        <FoodViewSlider slides={menuItems} />
       </div>
-      <button onClick={prevSlide}>Previous</button>
-      <button onClick={nextSlide}>Next</button>
     </div>
   );
-}
+};
+
+export default Menu;

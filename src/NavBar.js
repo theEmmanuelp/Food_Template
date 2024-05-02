@@ -3,7 +3,7 @@ import './Css/NavBar.css';
 export default function NavBar () {
     return (
         
-          <div class="NavBar">
+          <div className="NavBar">
             <ul>
               <li>
                 <a href="/Home"> Home </a>    

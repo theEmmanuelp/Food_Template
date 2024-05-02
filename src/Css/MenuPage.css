@@ -1,0 +1,16 @@
+/* this portion is for view box menu*/
+.Container {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .Slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .Slide {
+    flex: 0 0 100%;
+    padding: 20px;
+  }
+  

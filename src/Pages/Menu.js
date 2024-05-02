@@ -3,12 +3,13 @@ import '../Css/NavBar.css';
 import FoodViewSlider from "../Components/FoodViewSlider.js";
 
 
+
 const Menu = () => {
   const menuItems = [
-    { text: "Pizza" },
-    { text: "Burger" },
-    { text: "Salad" },
-    { text: "Sushi" },
+    { text: "Pizza", imgSrc: "./img/donut.png" },
+    { text: "Burger", imgSrc: './img/donut.png' },
+    { text: "Salad", imgSrc: './img/donut.png' },
+    { text: "Sushi", imgSrc: './img/donut.png' },
   ];
   const containerStyles = {
     width: "800px",
@@ -32,6 +33,7 @@ const Menu = () => {
           <option value="option3">Desert</option>
         </select>
       </div>
+      <img src="./img/pizza.png"></img>
 
     </div>
   );

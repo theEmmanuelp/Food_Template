@@ -1,5 +1,8 @@
 // Menu.js
+import '../Css/NavBar.css';
 import FoodViewSlider from "../Components/FoodViewSlider.js";
+
+
 const Menu = () => {
   const menuItems = [
     { text: "Pizza" },
@@ -8,8 +11,8 @@ const Menu = () => {
     { text: "Sushi" },
   ];
   const containerStyles = {
-    width: "500px",
-    height: "280px",
+    width: "800px",
+    height: "380px",
     margin: "0 auto",
     border: "1px solid #ccc",
     borderRadius: "10px",
@@ -22,6 +25,14 @@ const Menu = () => {
       <div style={containerStyles}>
         <FoodViewSlider slides={menuItems} />
       </div>
+      <div >
+        <select>
+          <option value="option1">Lunch</option>
+          <option value="option2">Dinner</option>
+          <option value="option3">Desert</option>
+        </select>
+      </div>
+
     </div>
   );
 };

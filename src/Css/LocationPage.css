@@ -1,0 +1,26 @@
+h1{
+    font-size: 70px;
+}
+
+.LocationInfo {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid black;
+    max-width: 1000px;
+}
+
+.LocationInfo p {
+    flex: 1;
+    margin-right: 2px; /* Adjust spacing between text and image */
+    font-size: 30px;
+}
+
+.LocationInfo img {
+    max-width: 100%;
+    margin-right: 40px;
+    height: auto;
+    width: 500px;
+}

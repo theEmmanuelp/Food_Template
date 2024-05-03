@@ -1,1 +1,35 @@
 /* this portion is for view box menu*/
+h1{
+    text-align: center;
+}
+
+.MenuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FullMenuBox {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+.FullMenuBox h4 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.FullMenuBox td {
+    padding: 8px 16px;
+    border: none;
+    font-size: 20px;
+}
+
+.FullMenuBox td:first-child {
+    text-align: left;
+}
+
+.FullMenuBox td:last-child {
+    text-align: right;
+}
+

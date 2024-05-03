@@ -28,13 +28,13 @@ function App() {
   }
   return (
     
-    <> 
+    <div class="App"> 
     
     <NavBar/>
     <PageBanner/>
     {component}
    
-    </>
+    </div>
 
   );
 }

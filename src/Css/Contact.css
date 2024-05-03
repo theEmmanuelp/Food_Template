@@ -1,0 +1,17 @@
+#contactPageContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#contactContainer{
+	display: flex;
+	flex-direction: row;
+	padding: 2em;
+	margin: 2em;
+}
+
+#contactImage img{
+	width: 4em;
+	height: 4em;
+}

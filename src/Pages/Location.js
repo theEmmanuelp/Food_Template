@@ -1,3 +1,3 @@
 export default function Location () {
-    return <h1>Location</h1>
+    return <h1>Locations</h1>
 }

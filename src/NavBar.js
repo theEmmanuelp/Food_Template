@@ -6,16 +6,16 @@ export default function NavBar () {
           <div className="NavBar">
             <ul>
               <li>
-                <a href="/Home"> Home </a>    
+                <a href="/Home">Home</a>    
               </li>
               <li>
-                <a href="/Contact"> Contact </a>
+                <a href="/Contact">Contact</a>
               </li>
               <li>
-                <a href="/Menu"> Menu </a>
+                <a href="/Menu">Menu</a>
               </li>
               <li>
-                <a href="/Location"> Location </a>
+                <a href="/Location">Locations</a>
               </li>
             </ul>
           </div>

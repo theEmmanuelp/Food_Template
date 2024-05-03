@@ -6,10 +6,10 @@ import FoodViewSlider from "../Components/FoodViewSlider.js";
 
 const Menu = () => {
   const menuItems = [
-    { text: "Pizza", imgSrc: "./img/donut.png" },
-    { text: "Burger", imgSrc: './img/donut.png' },
-    { text: "Salad", imgSrc: './img/donut.png' },
-    { text: "Sushi", imgSrc: './img/donut.png' },
+    { text: "Pizza", imgSrc: "/img/menu/pizza.png" },
+    { text: "Burger", imgSrc: '/img/menu/hamburger.png' },
+    { text: "Hot-Pot", imgSrc: '/img/menu/hot-pot.png' },
+    { text: "Donut", imgSrc: '/img/menu/donut.png' },
   ];
   const containerStyles = {
     width: "800px",
@@ -26,14 +26,6 @@ const Menu = () => {
       <div style={containerStyles}>
         <FoodViewSlider slides={menuItems} />
       </div>
-      <div >
-        <select>
-          <option value="option1">Lunch</option>
-          <option value="option2">Dinner</option>
-          <option value="option3">Desert</option>
-        </select>
-      </div>
-      <img src="./img/pizza.png"></img>
 
     </div>
   );

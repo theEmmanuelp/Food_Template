@@ -3,7 +3,7 @@ import './App.css';
 //import ReactDOM from 'react-dom/client';
 import './Css/NavBar.css';
 import './NavBar.js';
-import { PageBanner } from './banner.js';
+import PageBanner from './banner.js';
 import NavBar from './NavBar.js';
 import Contact from './Pages/Contact.js';
 import Menu from './Pages/Menu.js';

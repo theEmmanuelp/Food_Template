@@ -1,7 +1,7 @@
 import React from 'react';
-import './CSS/banner.css';
+import './Css/banner.css';
 
-export const PageBanner = () => {
+export function PageBanner(){
 	
 	return(
 	<>
@@ -15,3 +15,5 @@ export const PageBanner = () => {
 	);
 	
 };
+
+export default PageBanner;

@@ -15,3 +15,7 @@ Contained within banner.css are variables to adjust the appearance of some compo
 Sets the color of the 'Restaurant Title' text
 ### gradientHeight
 Sets the height of the top and bottom gradients in the banner
+
+
+# Wireframe
+![Wireframe image](/wireframe.png)

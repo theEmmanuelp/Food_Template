@@ -1,9 +1,21 @@
-ul{
-    list-style-type: none;
-    margin: 10;
-    padding: 10;
+.NavBar{
+    background-color: aqua;
+    text-align: center;
+    padding: 15px;
 }
+
 li{
     display: inline;
     padding: 10;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*this will be for menu css note this is temprary untill MenuPage is fix*/
+h1{
+    text-align: center;
 }

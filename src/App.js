@@ -1,31 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
-
+//import ReactDOM from 'react-dom/client';
+import './Css/NavBar.css';
+import './NavBar.js';
 import { PageBanner } from './banner.js';
+import NavBar from './NavBar.js';
+import Contact from './Pages/Contact.js';
+import Menu from './Pages/Menu.js';
+import Location from './Pages/Location.js';
 
 function App() {
+  //this switch case is for linking the pages together using location name 
+  let component
+  switch (window.location.pathname) {
+    case "/Contact":
+      component = <Contact/>
+      break
+    case "/Menu":
+      component = <Menu/>
+      break
+    case "/Location":
+      component = <Location/>
+      break
+    default:
+      component = null;
+      break;
+  }
   return (
-	<div>
-	<PageBanner/>
-    <div className="App">
-	
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-	
-	</div>
+    
+    <> 
+    
+    <NavBar/>
+    <PageBanner/>
+    {component}
+   
+    </>
+
   );
 }
 

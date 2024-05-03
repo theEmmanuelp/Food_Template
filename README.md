@@ -1,9 +1,12 @@
-Follow the guide in the main branch to deploy the app
+# Set up guide
+Select the folder directory in cmd and run command 'npm install' to install node (the repo does not come with node to save on file size)
 
-# Top Banner
+Once that's finished, run the 'npm start' command to run the app
+
+## Top Banner
 This is the banner component that will display at the top of every page in the app
 
-To be merged with the navbar when it is complete
+To be combined with the navbar
 
 ## Variables
 Contained within banner.css are variables to adjust the appearance of some components

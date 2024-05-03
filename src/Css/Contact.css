@@ -2,16 +2,52 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 2em;
 }
 
+
+/* contact image container */
 #contactContainer{
 	display: flex;
 	flex-direction: row;
 	padding: 2em;
 	margin: 2em;
+	overflow: hidden;
 }
 
+/* contact image */
 #contactImage img{
-	width: 4em;
-	height: 4em;
+	width: 20em;
+	height: 20em;
+	margin-right: 4em;
+	object-fit: cover;
+}
+
+
+/* alignment for all information*/
+#contactInfo * {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.5em;
+}
+
+/* styling for the container itself */
+#contactInfo {
+	border-style: solid;
+	border-color: black;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	width: 36em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* styling for about section */
+#contactInfo p {
+	text-align: left;
+	margin-bottom: 3em;
 }

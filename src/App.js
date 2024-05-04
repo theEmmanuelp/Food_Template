@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 import './App.css';
 //import ReactDOM from 'react-dom/client';
 import './Css/NavBar.css';
 import './NavBar.js';
-import PageBanner from './banner.js';
-import NavBar from './NavBar.js';
+import PageBanner from './Components/Banner.js';
+import NavBar from './Components/NavBar.js';
 import Contact from './Pages/Contact.js';
 import Menu from './Pages/Menu.js';
 import Location from './Pages/Location.js';

@@ -27,10 +27,11 @@ function App() {
   return (
     
     <div class="App"> 
-    
-    <NavBar/>
-    <PageBanner/>
-    {component}
+      <div className='bannerImage'>
+        <NavBar/>
+        <PageBanner/>
+      </div>
+      {component}
    
     </div>
 

@@ -1,0 +1,60 @@
+/* variables*/
+
+
+:root {
+  --gradientHeight: 200px;
+}
+
+
+
+#bannerBG{
+	display: flex;
+	height: 24em;
+	width: 100%;
+	/*
+		background: rgb(17, 98, 130);
+		background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?cs=srgb&dl=pexels-life-of-pix-67468.jpg&fm=jpg"); 
+	*/
+	background-size: 100% 150%;
+	background-position: center;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+#bannerTitle{
+	margin-top: 200px;
+	flex-grow: 0;
+	position:relative;
+	font-size: 7em;
+	z-index: 10;
+	
+}
+
+/*
+
+#bannerGradientTop{
+	align-self: flex-start;
+	flex-grow: 0;
+	position: absolute;
+	height: var(--gradientHeight);
+	width: 100%;
+	z-index: 5;
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(76,173,193,1) 100%);
+}
+
+#bannerGradientBottom{
+	align-self: flex-end;
+	flex-grow: 0;
+	position: absolute;
+	height: var(--gradientHeight);
+	width: 100%;
+	z-index: 5;
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(76,173,193,1) 100%);
+}
+
+*/
+

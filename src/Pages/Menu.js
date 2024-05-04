@@ -1,6 +1,6 @@
 
 import FoodViewSlider from "../Components/FoodViewSlider.js";
-import '../Css/MenuPage.css';
+import '../assests/Css/MenuPage.css';
 
 
 const Menu = () => {

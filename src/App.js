@@ -1,7 +1,6 @@
-import logo from './img/logo.svg';
+import "./assests/Css/banner.css"
 import './App.css';
 //import ReactDOM from 'react-dom/client';
-import PageBanner from './Components/Banner.js';
 import NavBar from './Components/NavBar.js';
 import Contact from './Pages/Contact.js';
 import Menu from './Pages/Menu.js';
@@ -29,7 +28,7 @@ function App() {
     <div class="App"> 
       <div className='bannerImage'>
         <NavBar/>
-        <PageBanner/>
+        <h1 id="bannerTitle">Restaurant Title</h1>
       </div>
       {component}
    

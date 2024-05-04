@@ -1,4 +1,4 @@
-import '../Css/LocationPage.css';
+import '../assests/Css/LocationPage.css';
 
 export default function Location () {
     return (

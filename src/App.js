@@ -1,4 +1,4 @@
-import "./assests/Css/banner.css"
+import "./assets/Css/banner.css"
 import './App.css';
 //import ReactDOM from 'react-dom/client';
 import NavBar from './Components/NavBar.js';

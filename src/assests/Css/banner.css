@@ -8,15 +8,17 @@
 */
 
 .bannerImage {
-	background: url(../img/restraunt-image.jpg) center center no-repeat;
+	background: rgba(255,255,255,0.25) url(../img/restraunt-image.jpg)  no-repeat;
+	background-position-y: 40%;
+  background-blend-mode: lighten;
 	background-size: 100% 32rem;
-	height: 32rem;
+	height: 25rem;
 	width: 100%;
 }
 
 .bannerContent {
 	width: 100%;
-	margin-top: 12.5rem;
+	margin-top: 3rem;
 }
 
 .bannerTitle {
@@ -24,8 +26,6 @@
 	margin: 0 auto;
 	font-size: 7em;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.40);
-	border-radius: 25px;
 }
 
 /*

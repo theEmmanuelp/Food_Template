@@ -1,5 +1,5 @@
 import React from 'react';
-import './Css/banner.css';
+import "../Css/banner.css"
 
 export function PageBanner(){
 	

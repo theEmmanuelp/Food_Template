@@ -1,0 +1,28 @@
+/* 
+* Banner image and colour opacity settings
+*
+* Allows banner image to be seen without compromising the readability 
+* and the web accessibility of the text content on top of it  
+*/
+.bannerImage {
+	background: rgba(255,255,255,0.25) url(../img/restraunt-image.jpg)  no-repeat;
+	background-position-y: 40%;
+  background-blend-mode: lighten;
+	background-size: 100% 32rem;
+	height: 25rem;
+	width: 100%;
+}
+
+/* Container for page title */
+.bannerContent {
+	width: 100%;
+	margin-top: 3rem;
+}
+
+/* Page title styling */
+.bannerTitle {
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 7em;
+	text-align: center;
+}

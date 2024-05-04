@@ -1,7 +1,22 @@
-# Set up guide
-Select the folder directory in cmd and run command 'npm install' to install node (the repo does not come with node to save on file size)
+# Food Template
 
-Once that's finished, run the 'npm start' command to run the app
+(give description about what this is and why it exists)
+
+## Set up guide
+
+### Install
+
+```ssh
+npm install
+```
+
+### Startup
+
+```ssh
+npm start
+```
+
+## **(Don't need a description on the components. Names + how they are coded should explain what they do)**
 
 ## Top Banner
 This is the banner component that will display at the top of every page in the app

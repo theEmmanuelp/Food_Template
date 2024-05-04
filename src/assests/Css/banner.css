@@ -1,20 +1,41 @@
 /* variables*/
 
 
+/* 
 :root {
   --gradientHeight: 200px;
 }
+*/
 
+.bannerImage {
+	background: url(../img/restraunt-image.jpg) center center no-repeat;
+	background-size: 100% 32rem;
+	height: 32rem;
+	width: 100%;
+}
 
+.bannerContent {
+	width: 100%;
+	margin-top: 12.5rem;
+}
+
+.bannerTitle {
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 7em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.40);
+	border-radius: 25px;
+}
+
+/*
 
 #bannerBG{
 	display: flex;
 	height: 24em;
 	width: 100%;
-	/*
-		background: rgb(17, 98, 130);
-		background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?cs=srgb&dl=pexels-life-of-pix-67468.jpg&fm=jpg"); 
-	*/
+	background: rgb(17, 98, 130);
+	background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?cs=srgb&dl=pexels-life-of-pix-67468.jpg&fm=jpg"); 
 	background-size: 100% 150%;
 	background-position: center;
 	text-align: center;
@@ -23,14 +44,9 @@
 	margin-bottom: 2em;
 }
 
-#bannerTitle{
-	margin-top: 200px;
-	flex-grow: 0;
-	position:relative;
-	font-size: 7em;
-	z-index: 10;
-	
-}
+*/
+
+
 
 /*
 

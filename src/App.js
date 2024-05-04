@@ -28,7 +28,9 @@ function App() {
     <div class="App"> 
       <div className='bannerImage'>
         <NavBar/>
-        <h1 id="bannerTitle">Restaurant Title</h1>
+        <div class="bannerContent">
+          <h1 class="bannerTitle">Restaurant Title</h1>
+        </div>
       </div>
       {component}
    

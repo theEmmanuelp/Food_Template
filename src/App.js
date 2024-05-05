@@ -8,6 +8,7 @@ import NavBar from './NavBar.js';
 import Contact from './Pages/Contact.js';
 import Menu from './Pages/Menu.js';
 import Location from './Pages/Location.js';
+import Home from './Pages/Home.js';
 
 function App() {
   //this switch case is for linking the pages together using location name 
@@ -22,8 +23,12 @@ function App() {
     case "/Location":
       component = <Location/>
       break
+	  case "/Home":
+      component = <Home/>
+      break
     default:
       component = null;
+	  component = <Home/>
       break;
   }
   return (

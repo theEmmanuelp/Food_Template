@@ -34,11 +34,12 @@ function App() {
   return (
     
     <div class="App"> 
-    
-    <NavBar/>
+	
+	<NavBar/>
     <PageBanner/>
-    {component}
-   
+
+	{component}
+	
     </div>
 
   );

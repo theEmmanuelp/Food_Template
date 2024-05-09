@@ -64,22 +64,12 @@ export default function Home () {
 			
 			<div id="aboutSubSection">
 				<div id="aboutTextSection">
-					<h1>Header 1</h1>
+					<h1>Header 2</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat felis et sem tempor, nec viverra libero ultricies. Mauris eu nisi velit. Integer at velit id risus aliquet pharetra. Nulla sed enim id arcu consequat mollis vel nec eros. Nullam convallis, magna sit amet consequat rutrum, mauris elit lobortis leo, sit amet lobortis purus nisi ac sem. Sed vitae est et libero malesuada placerat. Duis auctor nisi non nunc dapibus, nec suscipit justo efficitur. Integer et sapien id elit bibendum sodales. Sed non arcu sit amet nisl fringilla vehicula. Vivamus nec sapien ut arcu congue commodo eget at urna. In fermentum erat id mi iaculis, at gravida erat rhoncus. Vivamus lacinia, sem et tristique vehicula, nisi ligula scelerisque metus, eu consequat dolor neque at mauris.</p>
 				</div>
 				
 				<div id="aboutImageSection">
 					
-					<div id="aboutImageGrid">
-						<div id="aboutImageGridRow">
-							<div></div>
-							<div></div>
-						</div>
-						<div id="aboutImageGridRow">
-							<div></div>
-							<div></div>
-						</div>
-					</div>
 					<div id="aboutImageLarge">
 						
 					</div>

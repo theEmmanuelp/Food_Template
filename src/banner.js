@@ -7,7 +7,7 @@ export function PageBanner(){
 	<>
 		<div id="bannerBG">
 			<div id="bannerGradientTop"></div>
-			<p id="bannerTitle">Restaurant Title</p>
+			<p id="bannerTitle">M & E Bistro</p>
 			<div id="bannerGradientBottom"></div>
 		</div>
 		

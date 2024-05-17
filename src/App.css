@@ -10,4 +10,6 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 24em;
+  background: rgb(199,236,255);
+  background: linear-gradient(180deg, rgba(199,236,255,1) 0%, rgba(240,235,187,1) 45%, rgba(249,217,176,1) 73%, rgba(255,195,195,1) 100%);
 }

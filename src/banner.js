@@ -7,7 +7,12 @@ export function PageBanner(){
 	<>
 		<div id="bannerBG">
 			<div id="bannerGradientTop"></div>
-			<p id="bannerTitle">M & E Bistro</p>
+			
+			<div id="logoTitleContainer">
+				<img id="topLogo" src="/img/logo/topLogo.png" />
+				
+			</div>
+			
 			<div id="bannerGradientBottom"></div>
 		</div>
 		

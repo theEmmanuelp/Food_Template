@@ -8,17 +8,8 @@ export default function NavBar () {
               <li>
                 <a href="/Home">Home</a>    
               </li>
-			  <li>
-                <a href="/Order">Order Online</a>
-              </li>
               <li>
                 <a href="/Contact">Contact</a>
-              </li>
-              <li>
-                <a href="/Menu">Menu</a>
-              </li>
-              <li>
-                <a href="/Location">Locations</a>
               </li>
             </ul>
           </div>

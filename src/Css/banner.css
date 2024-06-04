@@ -1,18 +1,18 @@
 /* variables*/
 
 :root {
-  --gradientHeight: 200px;
+  --gradientHeight: 24em;
 }
 
 
 
 #bannerBG{
 	display: flex;
-	height: 24em;
+	height: 48em;
 	width: 100%;
 	background: rgb(17, 98, 130);
-	background-image: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?cs=srgb&dl=pexels-life-of-pix-67468.jpg&fm=jpg");
-	background-size: 100% 150%;
+	background-image: url("../../public/img/banner.jpg");
+	background-size: cover;
 	background-position: center;
 	text-align: center;
 	align-items: center;
@@ -25,7 +25,6 @@
 }
 
 #bannerTitle{
-	margin-top: 200px;
 	flex-grow: 0;
 	position:relative;
 	font-size: 7em;
@@ -52,5 +51,20 @@
 	z-index: 5;
 	background: rgb(2,0,36);
 	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(76,173,193,1) 100%);
+}
+
+#topLogo {
+	min-width: 16em;
+	min-height: 16em;
+	max-width: 48em;
+	max-height: 48em;
+	z-index: 1000;
+}
+
+#logoTitleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 

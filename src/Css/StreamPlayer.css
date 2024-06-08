@@ -1,0 +1,15 @@
+img {
+		min-height: 8em;
+		min-width: 8em;
+		max-height: 16em;
+		max-width: 16em;
+}
+
+#streamPlayer {
+	display: flex;
+	flex-direction: column;
+}
+
+#streamPlayer button{
+	margin: 6em;
+}

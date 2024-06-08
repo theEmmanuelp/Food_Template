@@ -116,3 +116,10 @@
 	margin-right: 8em;
 	font-size: 1.25em;
 }
+
+#spinningLogo {
+	min-height: 24em;
+	min-width: 24em;
+	max-height: 48em;
+	max-width: 48em;
+}

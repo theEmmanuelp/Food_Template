@@ -12,6 +12,9 @@ export default function NavBar () {
               <li>
                 <a href="/Home">Home</a>    
               </li>
+			  <li>
+                <a href="/Milestones">Milestones</a>    
+              </li>
 
             </ul>
           </div>

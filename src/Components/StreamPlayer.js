@@ -35,6 +35,7 @@ const StreamPlayer = ({ src }) => {
   return (
     <div>
       <video 
+	  height="0"
 	  ref={videoRef} 
 	  src={src}
       onContextMenu={handleContextMenu}

@@ -3,9 +3,6 @@ import StreamPlayer from '../Components/StreamPlayer.js';
 
 export default function Home () {
 
-	/* <video id="djStream" src="https://stream.zeno.fm/9fpmqjl6jrztv" controls>
-					Your browser does not support the video tag.
-					</video>  */
 	return(
 	<>
 		
@@ -15,8 +12,8 @@ export default function Home () {
 			
 			
 			<div id="aboutSubSection">
-			
-				<img id="spinningLogo" src="img/cribs hr 4.png" alt="Dj's Crib Logo"/>
+				
+				<h1>Live Radio Player</h1>
 				
 				<StreamPlayer src="https://stream.zeno.fm/9fpmqjl6jrztv" />
 
@@ -25,9 +22,21 @@ export default function Home () {
 			
 			
 			<div id="aboutSubSection">
-				<a href="https://www.facebook.com/djscribpage?mibextid=ZbWKwL" target="_blank">
-				<img id="faceBookLogo" src="img/facebookLogo.png" alt="faceBook Link"/>
+			
+				<h1>Our Socials</h1>
+				
+				<div id="socialMediaLinkContainer">
+				<a href="https://www.facebook.com/djscribpage?mibextid=ZbWKwL" target="_blank" rel="noreferrer">
+					<img id="facebookLogo" src="img/facebookLogo.png" alt="faceBook Link" title="Our FaceBook Page"/>
 				</a>
+				<a href="https://www.youtube.com/@djscrib3884" target="_blank" rel="noreferrer">
+					<img id="youtubeLogo" src="img/youtubeLogo.png" alt="youtube channel Link" title="Our YouTube Channel"/>
+				</a>
+				</div>
+				
+				
+				<img id="spinningLogo" src="img/cribs hr 4.png" alt="Dj's Crib Logo"/>
+				
 			</div>
 			
 			</div>

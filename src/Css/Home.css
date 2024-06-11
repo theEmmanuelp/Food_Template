@@ -9,11 +9,10 @@
 }
 
 #homeBody {
-	margin-left: 5em;
-	margin-right: 5em;
 	background-color: rgba(0,0,0,0.2);
 	padding-bottom: 4em;
 	padding-top: 4em;
+	width: 80vw;
 }
 
 #homePageContainer h1{
@@ -35,8 +34,7 @@
 #aboutSubSection{
 	display: flex;
 	flex-direction: column;
-	margin-right: 5em;
-	margin-left: 5em;
+
 	margin-bottom: 6em;
 	overflow: hidden;
 	flex-wrap: nowrap;
@@ -120,6 +118,27 @@
 #spinningLogo {
 	min-height: 24em;
 	min-width: 24em;
-	max-height: 48em;
-	max-width: 48em;
+	max-height: 60em;
+	max-width: 60em;
+
+}
+
+#facebookLogo {
+	min-height: 6em;
+	min-width: 6em;
+	max-height: 10em;
+	max-width: 10em;
+}
+
+#youtubeLogo {
+	min-height: 8em;
+	min-width: 8em;
+	max-height: 16em;
+	max-width: 16em;
+}
+
+#socialMediaLinkContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }

@@ -46,9 +46,10 @@ const StreamPlayer = ({ src }) => {
 	  </video>
 	  
 	  <div id="streamPlayer">
-		<button onClick={togglePlay}>
-		{isPlaying ? <img src="img/streamPlayerUI/pause.png" alt="Pause" /> : <img src="img/streamPlayerUI/play.png" alt="Play" />}
-		</button>
+		{isPlaying ? <img onClick={togglePlay} src="img/streamPlayerUI/pause.png" alt="Pause" 
+		title="Click to Pause Stream"/> : 
+		<img onClick={togglePlay} src="img/streamPlayerUI/play.png" alt="Play" 
+		title="Click to Play Stream"/>}
 		<input
           type="range"
           min={0}

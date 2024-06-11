@@ -10,6 +10,9 @@ img {
 	flex-direction: column;
 }
 
-#streamPlayer button{
-	margin: 6em;
+#streamPlayer img{
+	margin: 4em;
+}
+#streamPlayer img:hover{
+	cursor: pointer;
 }

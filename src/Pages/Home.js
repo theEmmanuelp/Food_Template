@@ -26,16 +26,25 @@ export default function Home () {
 				<h1>Our Socials</h1>
 				
 				<div id="socialMediaLinkContainer">
+				
+				<div id="socialMediaLogoContainer">
 				<a href="https://www.facebook.com/djscribpage?mibextid=ZbWKwL" target="_blank" rel="noreferrer">
-					<img id="facebookLogo" src="img/facebookLogo.png" alt="faceBook Link" title="Our FaceBook Page"/>
-				</a>
-				<a href="https://www.youtube.com/@djscrib3884" target="_blank" rel="noreferrer">
-					<img id="youtubeLogo" src="img/youtubeLogo.png" alt="youtube channel Link" title="Our YouTube Channel"/>
+					<img src="img/facebookLogo.png" alt="faceBook Link" title="Our FaceBook Page"/>
 				</a>
 				</div>
 				
+				<div id="socialMediaLogoContainer">
+				<a href="https://www.youtube.com/@djscrib3884" target="_blank" rel="noreferrer">
+					<img src="img/youtubeLogo.png" alt="youtube channel Link" title="Our YouTube Channel"/>
+				</a>
+				</div>
 				
-				<img id="spinningLogo" src="img/cribs hr 4.png" alt="Dj's Crib Logo"/>
+				</div>
+				
+				<div id="adContainer">
+					<img id="djAd" src="img/cribs hr 4.png" alt="Dj's Crib Promo"/>
+				</div>
+				
 				
 			</div>
 			

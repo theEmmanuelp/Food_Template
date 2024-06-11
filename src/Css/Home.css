@@ -115,30 +115,30 @@
 	font-size: 1.25em;
 }
 
-#spinningLogo {
-	min-height: 24em;
-	min-width: 24em;
-	max-height: 60em;
-	max-width: 60em;
-
+#adContainer {
+	width: 100%;
+}
+#djAd {
+	max-width: 80%;
+	max-height: 80%;
 }
 
-#facebookLogo {
-	min-height: 6em;
-	min-width: 6em;
-	max-height: 10em;
-	max-width: 10em;
+#socialMediaLogoContainer {
+	width: 10em;
+	height: 10em;
+	margin: 2em;
+	display: flex;
+	align-items: center;
 }
 
-#youtubeLogo {
-	min-height: 8em;
-	min-width: 8em;
-	max-height: 16em;
-	max-width: 16em;
+#socialMediaLogoContainer img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 #socialMediaLinkContainer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
 }

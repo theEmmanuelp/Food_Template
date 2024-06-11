@@ -1,4 +1,4 @@
-
+import '../Css/Milestones.css';
 
 export default function Milestones() {
 	return(

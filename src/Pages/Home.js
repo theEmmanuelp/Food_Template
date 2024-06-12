@@ -14,9 +14,9 @@ export default function Home () {
 			<div id="aboutSubSection">
 				
 				<h1>Live Radio Player</h1>
-				
-				<StreamPlayer src="https://stream.zeno.fm/9fpmqjl6jrztv" />
-
+				<div id="streamPlayerContainer">
+					<StreamPlayer src="https://stream.zeno.fm/9fpmqjl6jrztv" />
+				</div>
 				
 			</div>
 			

@@ -142,3 +142,10 @@
 	align-items: center;
 	justify-content: center;
 }
+
+#streamPlayerContainer {
+	background-image: url("../../public/img/cribs hr 5.png");
+	background-size: fill;
+	background-position: center;
+
+}

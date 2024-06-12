@@ -1,8 +1,8 @@
 img {
-		min-height: 8em;
-		min-width: 8em;
-		max-height: 16em;
-		max-width: 16em;
+		min-height: 4em;
+		min-width: 4em;
+		max-height: 12em;
+		max-width: 12em;
 }
 
 #streamPlayer {

@@ -17,7 +17,7 @@
 
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	#homeBody{
 		margin-left: 1em;
 		margin-right: 1em;
@@ -41,7 +41,7 @@
 	flex-direction: column;
 	list-style: none;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	#businessHoursContainer{
 		font-size: 10px;
 	}
@@ -63,7 +63,7 @@
 	margin-bottom: 1em;
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
 	#aboutSubSection{
 		font-size: 10px;
 		margin-left: 1em;

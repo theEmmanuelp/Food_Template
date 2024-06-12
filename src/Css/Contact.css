@@ -16,6 +16,31 @@
 	overflow: hidden;
 }
 
+@media screen and (max-width: 500px){
+	#contactLabel {
+        display: flex;
+        align-items: center; /* centers vertically */
+        justify-content: center; /* centers horizontally */
+        text-align: center; /* centers text inside */
+        margin: 0 auto; /* centers label container */
+    }
+
+    #contactContainer {
+        display: flex;
+        flex-direction: column; /* stacks items vertically */
+        align-items: center; /* centers child elements horizontally */
+        justify-content: center; /* centers child elements vertically if height is set */
+        padding: 1em; /* adds some padding for better appearance */
+    }
+
+    #contactImage {
+        width: 80%; /* makes image responsive */
+        max-width: 300px; /* sets a max width */
+        margin: 0 auto; /* centers image */
+        margin-bottom: 2em; /* reduces bottom margin */
+        display: block; /* ensures the image behaves correctly */
+    }
+}
 /* contact image */
 #contactImage img{
 	width: 20em;
@@ -54,4 +79,15 @@
 #contactInfo h1 {
 	text-align: left;
 	font-size: 2em;
+}
+
+@media screen and (max-width: 500px){
+	#contactInfo {
+		
+		display: grid;
+		place-items: center;
+		justify-content: space-around;
+		width: 400px;
+        
+    }
 }

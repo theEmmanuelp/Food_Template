@@ -6,7 +6,7 @@ export default function Contact () {
     return(
 	<>
 	
-		<h1>Contact Us</h1>
+		<h1 id="contactLabel">Contact Us</h1>
 	
 		<div id="contactPageContainer">
 		
@@ -41,22 +41,22 @@ export default function Contact () {
 			<div id="contactContainer">
 			
 				<div id="contactImage">
-					<img src="/img/contacts/contact2.jpg"/>
+					<img src="/img/contacts/contact4.jpg"/>
 				</div>
 				
 				<div id="contactInfo">
-					<h1>Miguel Andersen</h1>
-					<h2>About me</h2>
-					
-					<p>Miguel, the Co-Owner of M & E Bistro, has been a driving force behind the restaurant chain's success. With a background in business management and finance, Miguel brought a wealth of knowledge and strategic vision to the venture. His partnership with Luis, rooted in mutual respect and a shared passion for culinary excellence, has been integral to the growth and sustainability of M & E Bistro.</p>
-					
-					<p>Miguel's expertise in financial planning and operational efficiency has been pivotal in expanding the restaurant chain from a single location to a renowned brand with multiple outlets. He meticulously handles the financial aspects of the business, ensuring profitability while maintaining high standards of quality and service. Miguel's forward-thinking approach has also led to innovative marketing strategies that have significantly boosted the restaurant's visibility and customer base.</p>
-					
-					<p>Beyond his professional acumen, Miguel is deeply committed to fostering a positive workplace culture. He believes in empowering employees and creating an environment where creativity and collaboration thrive. Under his co-leadership, M & E Bistro has not only become a favorite among diners but also a respected employer in the hospitality industry. Miguel's blend of business savvy and genuine passion for the culinary arts continues to drive M & E Bistro's success story.</p>
-					
-					<h1>Contact information</h1>
-					<h2>Phone: 243-653-7532</h2>
-					<h2>Email: MiguelA24@gmail.ca</h2>
+				<h1>Emmanuel Pagaduan</h1>
+				<h2>About me</h2>
+				
+				<p>Emmanuel Pagaduan, the Co-Owner of M & E Bistro, has been a driving force behind the restaurant chain's success. With a background in business management and finance, Emmanuel brought a wealth of knowledge and strategic vision to the venture. His partnership with Luis, rooted in mutual respect and a shared passion for culinary excellence, has been integral to the growth and sustainability of M & E Bistro.</p>
+
+				<p>Emmanuel's expertise in financial planning and operational efficiency has been pivotal in expanding the restaurant chain from a single location to a renowned brand with multiple outlets. He meticulously handles the financial aspects of the business, ensuring profitability while maintaining high standards of quality and service. Emmanuel's forward-thinking approach has also led to innovative marketing strategies that have significantly boosted the restaurant's visibility and customer base.</p>
+				
+				<p>Beyond his professional acumen, Emmanuel is deeply committed to fostering a positive workplace culture. He believes in empowering employees and creating an environment where creativity and collaboration thrive. Under his co-leadership, M & E Bistro has not only become a favorite among diners but also a respected employer in the hospitality industry. Emmanuel's blend of business savvy and genuine passion for the culinary arts continues to drive M & E Bistro's success story.</p>
+				
+				<h1>Contact information</h1>
+				<h2>Phone: 243-653-7532</h2>
+				<h2>Email: Emmanuel_Pagaduan@outlook.com</h2>
 				</div>
 				
 			</div>
@@ -64,32 +64,6 @@ export default function Contact () {
 		</div>
 		
 		
-		<div id="contactPageContainer">
-		
-			<div id="contactContainer">
-			
-				<div id="contactImage">
-					<img src="/img/contacts/contact3.jpg"/>
-				</div>
-				
-				<div id="contactInfo">
-					<h1>Elena Watson</h1>
-					<h2>About me</h2>
-					
-					<p>Elena, a seasoned hospitality professional, played a crucial role in the founding of M & E Bistro alongside Luis. With over a decade of experience managing high-end restaurants and a degree in hospitality management, Elena brought invaluable expertise and insight to the burgeoning venture. Her passion for creating memorable dining experiences and her keen business acumen made her the perfect partner for Luis's ambitious project.</p>
-					
-					<p>Elena's meticulous attention to detail and commitment to excellence were instrumental in shaping the vision and operations of M & E Bistro. She spearheaded the development of the restaurant's menu, ensuring it featured a harmonious blend of traditional recipes and contemporary flavors. Elena's deep understanding of customer service and her ability to create a welcoming atmosphere helped establish M & E Bistro as a beloved dining destination.</p>
-					
-					<p>Today, Elena continues to oversee the daily operations of M & E Bistro, ensuring that the high standards she and Luis set are consistently met. Her unwavering dedication and dynamic leadership have been key drivers of the restaurant chain's success, earning her recognition as a prominent figure in the hospitality industry.</p>
-					
-					<h1>Contact information</h1>
-					<h2>Phone: 445-634-2564</h2>
-					<h2>Email: ElenaW15@gmail.ca</h2>
-				</div>
-				
-			</div>
-			
-		</div>
 	
 	
 	</>

@@ -12,8 +12,11 @@
 	background-color: rgba(0,0,0,0.2);
 	padding-bottom: 4em;
 	padding-top: 4em;
+
 	width: 80vw;
+
 }
+
 
 #homePageContainer h1{
 	font-size: 3em;
@@ -28,6 +31,12 @@
 #businessHoursContainer ul{
 	display: flex;
 	flex-direction: column;
+	list-style: none;
+}
+@media screen and (max-width: 500px) {
+	#businessHoursContainer{
+		font-size: 10px;
+	}
 }
 
 /* About section components */
@@ -45,6 +54,14 @@
 	margin-bottom: 1em;
 }
 
+@media screen and (max-width: 500px){
+	#aboutSubSection{
+		font-size: 10px;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
+
 
 #aboutImageSection{
 	display: flex;
@@ -52,8 +69,8 @@
 	flex-wrap: nowrap;
 	margin-bottom: 1em;
 	align-items: center;
-	
 }
+
 
 #aboutImageSection img.aboutImage1{
 	width: 100%;
@@ -64,7 +81,7 @@
 #aboutImageSection img.aboutImage2{
 	width: 100%;
 	min-height: 24em;
-	max-height: 36em;
+	max-height: 36em ;
 }
 
 #aboutImageLarge{

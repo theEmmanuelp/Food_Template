@@ -1,0 +1,18 @@
+img {
+		min-height: 4em;
+		min-width: 4em;
+		max-height: 12em;
+		max-width: 12em;
+}
+
+#streamPlayer {
+	display: flex;
+	flex-direction: column;
+}
+
+#streamPlayer img{
+	margin: 4em;
+}
+#streamPlayer img:hover{
+	cursor: pointer;
+}

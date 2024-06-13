@@ -144,8 +144,16 @@
 }
 
 #streamPlayerContainer {
-	background-image: url("../../public/img/cribs hr 5.png");
-	background-size: fill;
+	background-image: url("../../public/img/cribs hr 1.png");
+	background-size: cover;
 	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 6em;
+}
 
+#streamPlayerContainer h1 {
+	color: white;
 }

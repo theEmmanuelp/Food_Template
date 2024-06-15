@@ -1,0 +1,18 @@
+
+
+export default function Milestones2022() {
+	return(
+		
+		<>
+		
+		<h1>2022</h1>
+		
+		<div id="subSection">
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/am1bzDT72as?si=omdxDOBpBf116TD_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		
+		</div>
+		
+		</>
+	);
+}

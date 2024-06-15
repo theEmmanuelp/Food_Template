@@ -33,3 +33,17 @@
 #subSection iframe {
 	margin-bottom: 2em;
 }
+
+
+@media (max-width: 800px ){
+    #milestonePageContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: auto;
+        height: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

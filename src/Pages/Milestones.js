@@ -40,9 +40,9 @@ export default function Milestones() {
 			<h1>Look back on our Milestones!</h1>
 			
 			<div id="yearSelectorContainer">
-				<button onClick={() => setYear("2024")}>2024</button>
-				<button onClick={() => setYear("2023")}>2023</button>
-				<button onClick={() => setYear("2022")}>2022</button>
+				<h1 class="btn" onClick={() => setYear("2024")}>2024</h1>
+				<h1 class="btn" onClick={() => setYear("2023")}>2023</h1>
+				<h1 class="btn" onClick={() => setYear("2022")}>2022</h1>
 			</div>
 			
 			

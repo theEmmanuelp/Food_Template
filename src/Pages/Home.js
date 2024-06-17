@@ -24,7 +24,7 @@ export default function Home () {
 			
 			<div id="aboutSubSection">
 			
-				<h1>Our Socials</h1>
+				<p id="socialsText">Our Socials</p>
 				
 				<div id="socialMediaLinkContainer">
 				

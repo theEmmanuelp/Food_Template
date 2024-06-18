@@ -66,10 +66,16 @@
         display: flex;
         flex-direction: column;
     }
+	#milestonePageContainer h1{
+		font-size: 35px;
+	}
     iframe {
         width: auto;
         height: auto;
         margin-top: 1em;
         margin-bottom: 1em;
     }
+	#yearSelectorContainer h1{
+		font-size: 25px;
+	}
 }

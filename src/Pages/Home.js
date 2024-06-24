@@ -24,7 +24,21 @@ export default function Home () {
 			
 			<div id="aboutSubSection">
 			
-				<p id="socialsText">Our Socials</p>
+				<p id="socialsText">Connect with us</p>
+				
+				<div id="contactInfoLine">
+					<img id="contactInfoImg" alt="Phone Icon" src="img/phone_icon.png"/>
+					<p id="contactInfo">(+63) 939-486-5756</p>
+				</div>
+				
+				<div id="contactInfoLine">
+					<img id="contactInfoImg" alt="Email Icon" src="img/email_icon.png"/>
+					<p id="contactInfo">
+					<a href="mailto: tess111274@yahoo.com">tess111274@yahoo.com</a>
+				</p>
+				
+				</div>
+				
 				
 				<div id="socialMediaLinkContainer">
 				
